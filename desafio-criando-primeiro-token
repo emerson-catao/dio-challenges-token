@@ -1,0 +1,28 @@
+#passos do desafio
+
+Foi efetuada instalação do navegador Brave
+
+Sobre o navegador foi adicionada a extensão Metamask
+
+No decorrer da na aula que orienta a implementação do desafio foi sugerida a conexão na mainnet da binance smart chain e a utilização de moedas faucet (de uso mais restrito em redes testnet).
+
+Devido a algumas dificuldades de conectar uma testnet na carteira Metamask no browser Brave e identificar faucet coins a serem utilizadas, optou-se por utilizar uma conta gerada no Ganache.
+
+Essa conta foi importada na carteira Metamask.
+id da conta : 0x02DbB704F5aEb15DB9Fe0E2B4d370fee013BDb32
+
+Foi acessada a ferramenta Remix para compilação do código fornecido. Em virtude do momento em que o curso foi elaborado, 2022, as versões de EVM já não eram mais as default do compilador 
+da IDE Remix, assim os parametros da IDE foram ajustados para contemplar a mesma versão especificada no código solidity, 0.4.24. Além da versão da ERC-20 também foi ajustada a versão da EVM para 
+efetuar a compilação, usou-se a "constantinople".
+
+Após a compilação e o deploy efetuados com sucesso constatou-se a geração do contrato com o id : 0x34b2aa36922833dAd93dF9d6929561C26248d4CB
+
+Esse contrato foi adicionando manualmente na carteira Metamask sendo possível ratificar a criação do token. 
+
+As evidencias encontram-se nos arquivos anexados:
+  -print de tela do Ganache (exibe o bloco gerado em que o contrato foi criado) 
+  -print de tela da carteira Metamask (exibe o saldo da conta em ETH e DIO token) 
+  -print de tela e do Remix (exibe as configurações ajustadas contemplando o código fornecido) 
+  -log gerado pelo terminal do Remix (registro da sequencia de passos executados)
+
+
